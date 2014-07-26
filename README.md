@@ -20,15 +20,15 @@ A summery of the project:
   7.Host computer send the command to the robot.
 
 
-Details about how to install:
-  In order to run this program on your local machine you need the fallowing software:
-      1.LabVIew (2008-2012).
-      2.Android SDK (Find here : http://developers.android.com/sdk ).
-      3. Google glass developmend kit (GDK) from inside SDK tools.
-      3.Java jdk (FInd here: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
-      4./Optional/Processing 2.0 (Find here: http://processing.org).
-      5. (Local) server.
-      6.Mindstorms NXT Robot.
+Details about how to install:<br/>
+  In order to run this program on your local machine you need the fallowing software:<br/>
+      1.LabVIew (2008-2012).<br/>
+      2.Android SDK (Find here : http://developers.android.com/sdk ).<br/>
+      3. Google glass developmend kit (GDK) from inside SDK tools.<br/>
+      3.Java jdk (FInd here: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).<br/>
+      4./Optional/Processing 2.0 (Find here: http://processing.org).<br/>
+      5. (Local) server.<br/>
+      6.Mindstorms NXT Robot.<br/>
       
   First, you need to upload <pre><code>/ LabView / Robot_glass_control nxt.vi </code></pre> file into the NXT brick and run  <pre><code>/LabView / Robot_glass_control__computer.vi</code></pre> on your local computer
   Then you need to upload files in PHP folder to your ser/ver and insert table in database folder in your MySql database.
