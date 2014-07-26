@@ -8,12 +8,10 @@ import org.apache.http.impl.client.DefaultHttpClient;
 
 
 
-//println("Reponse Content: " + get.getContent());
-//println("Reponse Content-Length Header: " + get.getHeader("Content-Length"));
 
 AccelerometerManager accel;
 float ax, ay, az;
-String BASE = "http://Narek.Galstyan1996.student.tumo.org/glass/accel";
+String BASE = "http://Narek.Galstyan1996.student.tumo.org/glass/accel";//type base URL here
 String x,y,z;
  HttpResponse response;
 
@@ -36,7 +34,7 @@ void draw() {
  x = nf(ax, 1, 2);
  y = nf(ay, 1, 2);
  z = nf(az, 1, 2);
-  text("x: " + x + "\n" + 
+  text("x: " + x + "\n" + //thisis for debug mode
        "y: " + y + "\n" + 
        "z: " + z + "\n", 
        0, 0, width, height);
@@ -57,9 +55,8 @@ try {
      // e.printStackTrace(); 
     }
 
-//get.send();
-//println("Reponse Content: " + get.getContent());
-delay(200);
+
+delay(50);
 
 }
   
