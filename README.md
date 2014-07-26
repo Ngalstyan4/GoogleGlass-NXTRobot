@@ -22,12 +22,12 @@ A summery of the project:
 
 Details about how to install:
   In order to run this program on your local machine you need the fallowing software:
-      1.LabVIew (2008-2012)
-      2.Android SDK (Find here : http://developers.android.com/sdk )
+      1.LabVIew (2008-2012).
+      2.Android SDK (Find here : http://developers.android.com/sdk ).
       3. Google glass developmend kit (GDK) from inside SDK tools.
-      3.Java jdk (FInd here: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-      4./Optional/Processing 2.0 (Find here: http://processing.org)
-      5. (Local) server
+      3.Java jdk (FInd here: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
+      4./Optional/Processing 2.0 (Find here: http://processing.org).
+      5. (Local) server.
       6.Mindstorms NXT Robot.
       
   First, you need to upload <pre><code>/ LabView / Robot_glass_control nxt.vi </code></pre> file into the NXT brick and run  <pre><code>/LabView / Robot_glass_control__computer.vi</code></pre> on your local computer
