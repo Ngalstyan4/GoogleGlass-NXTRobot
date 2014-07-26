@@ -35,3 +35,5 @@ Details about how to install:
   After finishing this, you just need to copy the URL where your PHP files are, past it in adnroid or processing project as the value of <code>/String BASE</code>, and run the aplication on your google glass.
   
  
+if you are not yet clear how everything works, have a look at  this presentation:
+http://prezi.com/h6mpu6rcd3py/?utm_campaign=share&utm_medium=copy
