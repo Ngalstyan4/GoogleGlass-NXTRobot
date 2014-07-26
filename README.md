@@ -30,7 +30,7 @@ Details about how to install:
       5. (Local) server
       6.Mindstorms NXT Robot.
       
-  First, you need to upload <pre><code>/ LabView / Robot_glass_control__nxt.vi</code> file into the NXT brick and run  <code>/LabView / Robot_glass_control__computer.vi</code><pre> on your local computer
+  First, you need to upload <pre><code>/ LabView / Robot_glass_control nxt.vi </code></pre> file into the NXT brick and run  <pre><code>/LabView / Robot_glass_control__computer.vi</code></pre> on your local computer
   Then you need to upload files in PHP folder to your ser/ver and insert table in database folder in your MySql database.
   After finishing this, you just need to copy the URL where your PHP files are, past it in adnroid or processing project as the value of <pre><code>/String BASE</code></pre>
   
