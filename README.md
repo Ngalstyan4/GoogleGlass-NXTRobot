@@ -9,15 +9,15 @@ Glass communicates with the Robot via internet.
 This Project can be used as a base for many other project for the glass and robot as well, because it makes the bridge between two platforms through internet
 
 
-A summery of the program:
-1. Google glass connects to the Internet.
-2. Google glass keeps track of its accelerometer values and sends them to server using HTTP protocol. 
-3.Server gets the request made by the Glass and writes the values of the accelerometer in MySql data base.
+A summery of the project:
+  1. Google glass connects to the Internet.
+  2. Google glass keeps track of its accelerometer values and sends them to server using HTTP protocol. 
+  3.Server gets the request made by the Glass and writes the values of the accelerometer in MySql data base.
 
-4. NXT Robot connects to host computer via Bluetooth.
-5. Host Computer makes and HTTP query to the same server the Glass had written its accelerometer sensror values in order to get a command for the robot
-6. The Server returns a <code>String</code> type command to the host computer
-7.Host computer send the command to the robot.
+  4. NXT Robot connects to host computer via Bluetooth.
+  5. Host Computer makes and HTTP query to the same server the Glass had written its accelerometer sensror values in order       to get a command for the robot
+  6. The Server returns a <code>String</code> type command to the host computer
+  7.Host computer send the command to the robot.
 
 
 Details about how to install:
@@ -32,7 +32,19 @@ Details about how to install:
       
   First, you need to upload <code>/ LabView / Robot_glass_control__nxt.vi</code> file into the NXT brick and run  <code>/LabView / Robot_glass_control__computer.vi</code> on your local computer
   Then you need to upload files in PHP folder to your server and insert table in database folder in your MySql database.
-  After finishing this, you just need to copy the URL where your PHP files are, past it in adnroid or processing project as the value of <code>/String BASE</code>, and run the aplication on your google glass.
+  After finishing this, you just need to copy the URL where your PHP files are, past it in adnroid or processing project as the value of <code>/String BASE</code>
+  
+  <code>
+  AccelerometerManager accel;
+float ax, ay, az;
+<b>String BASE = "http://Narek.Galstyan1996.student.tumo.org/glass/accel";</b>
+String x,y,z;
+ HttpResponse response;
+
+  </code>
+  
+  
+  , and run the aplication on your google glass.
   
  
 if you are not yet clear how everything works, have a look at  this presentation:
