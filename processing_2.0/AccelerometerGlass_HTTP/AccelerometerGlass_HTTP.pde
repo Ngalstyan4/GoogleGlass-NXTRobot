@@ -13,7 +13,7 @@ import org.apache.http.impl.client.DefaultHttpClient;
 
 AccelerometerManager accel;
 float ax, ay, az;
-String BASE = "http://nodejs.tumo.lab:1337/set";
+String BASE = "http://Narek.Galstyan1996.student.tumo.org/glass/accel";
 String x,y,z;
  HttpResponse response;
 
