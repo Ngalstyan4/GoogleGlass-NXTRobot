@@ -1,6 +1,6 @@
 GoogleGlass-NXTRobot
 ====================
-
+This project was carried out in TUMO Center for creative technologies (Read more: http://tumo.org)
 This project is a demonstration how to ccontrol NXT Robot with Google Glass.
 The ida is that the NXT Robot will move forward, backword, left and right as the one who wears the glass moves
 their head correspondingly forward, backward, left and right.
